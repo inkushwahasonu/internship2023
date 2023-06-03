@@ -1,0 +1,16 @@
+// div p {
+//   color: red;
+// }
+
+// div p:hover {
+//   color: green;
+// }
+
+div {
+  & p {
+    color: red;
+    &:hover {
+      color: green;
+    }
+  }
+}
