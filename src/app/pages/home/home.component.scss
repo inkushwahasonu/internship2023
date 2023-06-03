@@ -1,16 +1,12 @@
-// div p {
-//   color: red;
-// }
+.product {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
 
-// div p:hover {
-//   color: green;
-// }
-
-div {
-  & p {
-    color: red;
-    &:hover {
-      color: green;
-    }
+  .card {
+    min-width: 18rem;
   }
 }
